@@ -14,8 +14,9 @@ public class MainActivity extends AppCompatActivity {
 
     private EditText etPrinciple, etTime, etRate;
     private Button btnCalculate;
-    int Principle, Time, Rate;
-    double result;
+    int Principle, Time;
+    float result, Rate;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
